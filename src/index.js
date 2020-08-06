@@ -1,1 +1,5 @@
-console.log("this is working")
+import {getNavBar} from './components/navbar'
+
+const body = document.querySelector('body');
+
+body.prepend(getNavBar(0));
