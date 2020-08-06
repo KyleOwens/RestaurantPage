@@ -112,6 +112,13 @@ div#content{
     flex-direction: column;
 }
 
+div#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 h1{
     color: white;
     font-size: 6rem;
@@ -159,6 +166,60 @@ h1{
 .contact-cards p strong{
     color: #aa4400;
 }
+
+div#menu{
+    margin-top: 2rem;
+    width: 75%;
+    height:100%;
+    background:rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: none;
+}
+
+.header{
+    text-align:center;
+}
+
+.menu-logo{
+    height: 12rem;
+    width: 12rem;
+    margin: none;
+}
+
+.menu-header{
+    background: transparent;
+    box-shadow: none;
+    text-shadow: 0 0 8px #aa4400;
+    color:white;
+    font-size: 4rem;
+    font-family: 'Recursive', sans-serif;
+    margin: -4rem;
+}
+
+.top-section{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    width: 100%;
+}
+
+.section-header{
+    color: red;
+    background: transparent;
+    box-shadow: none;
+    text-shadow: 0 0 8px #aa4400;
+    font-size: 2rem;
+    font-family: 'Recursive', sans-serif;
+}
+
+.menu-section{
+    flex: 1;
+}
+
+
 
 
 
