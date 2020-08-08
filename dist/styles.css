@@ -175,7 +175,7 @@ div#menu{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: none;
+    min-width: 700px;
 }
 
 .header{
@@ -206,17 +206,48 @@ div#menu{
     width: 100%;
 }
 
+.bottom-section{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    width: 50%;
+}
+
 .section-header{
-    color: red;
+    color: white;
     background: transparent;
     box-shadow: none;
-    text-shadow: 0 0 8px #aa4400;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Recursive', sans-serif;
+    text-align: center;
 }
 
 .menu-section{
     flex: 1;
+    margin: 0 3rem;
+    text-align: left;
+}
+
+.food-items{
+    text-align: left;
+}
+
+.item-header{
+    margin-top: 2rem;
+    font-family: 'Rowdies', sans-serif;
+    color: #aa4400;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #aa4400;
+}
+
+.item-description{
+    font-family: 'Mulish', sans-serif;
+    color:white;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
 }
 
 
