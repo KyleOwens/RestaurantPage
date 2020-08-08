@@ -11,6 +11,14 @@ const getNavBar = (selectedPosition) => {
     return navbar;
 }
 
+const updateNavbar = (buttons, index) => {
+    buttons.forEach(button => {
+        button.classList.remove('selected');
+    });
+
+    buttons[index].classList.add('selected');
+}
+
 const getLogoContainer = () => {
     const logoContainer = document.createElement('div');
     const logo = document.createElement('img');
